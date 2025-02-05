@@ -2,7 +2,6 @@ luvut = []
 
 while True:
     luku = input("Anna minulle lukuja: ")
-    luku = int(luku)
     if luku == "":
         break
     luvut.append(luku)
