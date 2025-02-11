@@ -10,7 +10,7 @@ yhteys = mysql.connector.connect(
     )
 
 def hae_icao(ICAO):
-    sql = f"select airport.name as 'airport' from airport where gps_code = '{ICAO}';"
+    sql = f"select airport.name as 'airport', municipality from airport where gps_code = '{ICAO}';"
     cursor = yhteys.cursor()
     cursor.execute(sql)
     tulos = cursor.fetchall()
