@@ -7,10 +7,8 @@ while kysymys != "":
         lisäys = input("Anna uuden lentokentän nimi: ")
         koodi = input("Lisää ICAO koodi: ")
         kentät[koodi] = lisäys
-        print(kentät)
 
         kysymys = input("Haluatko 1. lisätä vai  2. etsiä lentokenttiä ja 3. nähdä listan. Tyhjä vastaus lopettaa: ")
-
 
     elif kysymys == "2":
         etsi = input("Lentokentän ICAO koodi: ")
