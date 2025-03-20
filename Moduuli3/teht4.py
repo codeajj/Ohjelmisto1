@@ -10,3 +10,4 @@ if vuosi % 4 == 0:
     else: print("Tämä on karkausvuosi!")
 
 else: print("Tämä ei ole karkausvuosi!")
+#moi
